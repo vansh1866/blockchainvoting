@@ -1,0 +1,393 @@
+html {
+  height: 100%;
+  font-size: 10px;
+  font-family: sans-serif;
+  color-scheme: dark;
+}
+
+body{
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background: #0B0C10;
+}
+
+
+/*LOGIN PAGE CSS*/
+
+#login-mid-box{
+  display: flex;
+  width: 70vw;
+  height: 80vh;
+  background-color: #1F2833;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 10vh auto auto;
+  border-radius: 10px;
+}
+
+#login-left{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: center;
+}
+
+#login-left>p{
+  color: #C5C6C7;
+  font-size: 2.2vw;
+  text-align: center;
+  line-height: 3vw;
+}
+
+#login-left>img{
+  width:10vw;
+}
+
+#login-right{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  width:27vw;
+  height:70vh;
+  border-radius: 10px;
+  background-color: #ecfcfd;
+}
+
+#login-right>p{
+  font-size: 2.5vw;
+  color: #45A29E;
+  margin: 20px 0;
+}
+
+#login-small-buttons{
+  display: flex;
+  justify-content: space-between;
+  width:16vw;
+  margin:0;
+}
+
+#login-reg-btn,#login-admin-btn{
+  color:#45A29E;
+  text-decoration: none;
+}
+
+
+/*REGISTRATION PAGE CSS*/
+
+#reg-background{
+  background-color: #1F2833;
+  width:100vw;
+  height:100vh;
+  position: fixed;
+}
+
+#reg-center-box{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+
+  background-color: #eafcf6;
+  border-radius: 10px;
+  width: 50vw;
+  height: 80vh;
+  margin: 10vh auto auto;
+}
+
+#reg-Top-text{
+  font-family: Roboto;
+  text-align: center;
+  font-size: 3.5rem;
+  font-weight: bolder;
+}
+
+#reg-Top-text>p{
+  color:#2b9d82;
+  margin: 0;
+  text-shadow: 0 0 1px #0B0C10 ;
+}
+
+#reg-Form-top{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 15vh;
+  column-gap: 4vw;
+  width: 100%;
+}
+
+#reg-Form-top-left, #reg-Form-top-right{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  row-gap: 5vh;
+}
+
+.Text-input{
+  width: 15vw;
+  height: 4vh;
+}
+
+#reg-Form-bottom{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  row-gap: 3vh;
+}
+
+.Text-input2{
+  width: 34vw;
+  height: 4vh;
+}
+
+
+/*ADMIN LOGIN CSS*/
+
+#admin-login-background{
+  background-color: #1A1A1D;
+  width:100vw;
+  height:100vh;
+  position: fixed;
+}
+
+#admin-login-center-box{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  row-gap: 8vh;
+  align-items: center;
+
+  background-color: #f6f2f2;
+  border-radius: 10px;
+  width: 28vw;
+  height: 70vh;
+  margin: 15vh auto 15vh auto;
+}
+
+#admin-login-title{
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  font-size: 3.5rem;
+  font-weight: bolder;
+  margin-bottom: 25px;
+}
+
+#admin-login-title>p{
+  color:#C3073F;
+  margin: 0;
+}
+
+
+/*HOMEPAGE CSS*/
+
+/*body{*/
+/*  overflow: hidden;*/
+/*}*/
+
+.homepage{
+  background-color: #1F2833;
+  display:flex;
+}
+
+#home-bg-img{
+  height:100vh;
+  width:65vw;
+  position: center;
+}
+
+.home-right{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+  row-gap: 8vh;
+}
+
+#home-content{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  row-gap:1vh;
+}
+
+#home-logo{
+  width:12vw;
+  padding: 0;
+  margin: 0;
+}
+
+#home-text{
+  padding:0;
+  margin:0;
+  font-size: 2.5rem;
+  font-family: Cambria;
+  text-align: center;
+  color: #C5C6C7;
+}
+
+#home-buttons{
+  display: flex;
+  flex-direction: column;
+  row-gap: 5vh;
+}
+
+#home-login-btn, #home-register-btn{
+  width:12vw;
+  height: 5vh;
+  padding:30px;
+  color: #efefef;
+}
+
+
+/*NAVBAR CSS*/
+
+nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  height: 5vh;
+  background-color: #1F2833;
+  padding:20px;
+}
+
+#nav-left{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  column-gap: 35px;
+}
+
+#nav-logo{
+  width:50px;
+}
+
+.nav-btn{
+  padding:30px;
+}
+
+#logout-btn{
+  color: #e60303;
+}
+
+
+/*VOTING PAGE CSS*/
+
+#voting-cont{
+  padding: 8vh 0;
+  display: flex;
+  justify-content: space-between;
+  width:80vw;
+  column-gap: 4vw;
+  flex-wrap: wrap;
+  row-gap: 5vh;
+}
+
+
+/*CANDIDATE CARD 2 CSS*/
+
+.card2{
+  display: flex;
+  height: 20vh;
+  column-gap: 2vw;
+  align-items: center;
+  justify-content: center;
+  background-color: #1F2833;
+  border-radius: 20px;
+  padding: 20px;
+}
+
+.card2-img{
+  height: 100%;
+  border-radius: 20px;
+  width:12vw;
+}
+
+.card2-content{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: Cambria;
+}
+
+.card2-content>p{
+  font-size: 2rem;
+}
+
+.card2-vote-btn{
+  height: 5vh;
+}
+
+
+/*RESULT PAGE CSS*/
+
+#result-cont{
+  padding: 8vh 0;
+  display: flex;
+  justify-content: space-between;
+  width:80vw;
+  column-gap: 4vw;
+  flex-wrap: wrap;
+  row-gap: 5vh;
+}
+
+#no-voting-msg{
+  text-align: center;
+  font-size: 3rem;
+  font-family: Roboto;
+}
+
+#wallet-id{
+  text-decoration: none;
+  color: #C5C6C7;
+  font-size: 1.6rem;
+}
+
+
+/*Admin page css*/
+
+.admin-page{
+  width:100%;
+  background-color: #1A1A1D;
+  font-size: 2rem;
+}
+
+#phase-cont{
+  padding-bottom: 60vh;
+}
+
+#admin-nav{
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3vh 3vw;
+  margin-bottom: 10vh;
+  height: 10vh;
+  font-size: 2rem;
+
+  background-color: #1F2833;
+}
+
+
+/*Add Candidate Page CSS*/
+
+#cand-form{
+  display: flex;
+  flex-direction: column;
+  row-gap: 5vh;
+  align-items: center;
+  justify-content: center;
+}
+
+
+/*Voter Verification Page CSS*/
+
+#voter-form{
+  display: flex;
+  flex-direction: column;
+  row-gap: 5vh;
+  align-items: center;
+}
